@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Приветствие</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <div id="screen1">
+      <h1>Привет!</h1>
+      <p>Введите своё имя <b>английскими буквами</b></p>
+      <input id="name" type="text" placeholder="Например: (примера нету)" autocomplete="off" autocapitalize="off">
+      <p class="error" id="error"></p>
+      <button id="ok">ОК</button>
+    </div>
+    <div id="screen2" class="hidden">
+      <div id="result"></div>
+      <button class="ghost" id="back">Назад</button>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
